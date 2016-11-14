@@ -28,6 +28,14 @@
 
 The whole building process should take around 2 minutes.
 
+#Know issues:
 
+if you see this error message: 
 
+	java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty
 
+try running this:
+
+	 sudo update-ca-certificates -f
+
+first!
