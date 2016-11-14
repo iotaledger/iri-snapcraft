@@ -1,14 +1,16 @@
 
+# IOTA IRI SNAPCRAFT
+
 ##First of all, install snapcraft
 
 	sudo apt install snapcraft
 
-##clone the project and in the directory run:
+##clone the current project in a local directory and run:
 
 	snapcraft
 
-##it will download all the dependencies and it will bundle a package called iri_1.1.0_{arch}.snap
-##therefore run:
+##Snapcraft will download all the dependencies and it will bundle a package called iri_1.1.0_{arch}.snap
+##Therefore run:
 
 	sudo snap install iri_1.1.0_amd64.snap --force-dangerous
 
@@ -18,9 +20,14 @@
 
 ##then simply execute
 
-	iri
+	iri ${PORT} ${NODES_LIST}
 
-The whole process should take around 2 minutes.
+##for instance
+
+	iri 14265 udp://1.1.1.1:142 udp://1.1.1.2:142 ...
+
+The whole building process should take around 2 minutes.
+
 
 
 
