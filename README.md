@@ -42,4 +42,5 @@ try running this:
 
 	 $ sudo update-ca-certificates -f
 or this:
-	 $ sudo apt-get install --reinstall ca-certificates-java
+
+	$ sudo apt-get install --reinstall ca-certificates-java
