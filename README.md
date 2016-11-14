@@ -36,6 +36,6 @@ if you see this error message:
 
 try running this:
 
-	 sudo update-ca-certificates -f
-
-first!
+	 $ sudo update-ca-certificates -f
+or this:
+	 $ sudo apt-get install --reinstall ca-certificates-java
