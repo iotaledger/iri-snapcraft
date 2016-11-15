@@ -1,9 +1,11 @@
 
 # IOTA IRI SNAPCRAFT
 
-##First of all, install snapcraft
+##First of all, if you have Ubuntu install snapcraft
 
 	$ sudo apt install snapcraft
+
+##If you are not an Ubuntu user follow these instructions instead: http://snapcraft.io/docs/core/install
 
 ##clone the current project in a local directory and run:
 
@@ -18,9 +20,7 @@
 
 	$ sudo snap install iri_1.1.0_amd64.snap --force-dangerous
 
-##and it will result in a 
-
-	$ iri 1.1.0 installed
+##and it will result in a '$ iri 1.1.0 installed'
 
 ##then simply execute
 
