@@ -15,7 +15,7 @@ parts:
   iri:
     source: https://github.com/iotaledger/iri.git
     plugin: maven
-
+    snap: [-usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts]
   # This script contains all the commands needed (sets env variables, launches the jar file...) to
   # execute the application
   exec:
