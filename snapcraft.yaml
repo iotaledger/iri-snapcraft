@@ -1,5 +1,5 @@
 name: iri
-version: "1.1.0"
+version: "1.1.2.4"
 summary: IOTA Reference Implementation
 description: IRI is the first IOTA Reference Implementation and node.
 grade: stable
